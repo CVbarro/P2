@@ -22,8 +22,9 @@ a {
 }
 
 @media (max-width: 768px) {
-  .jogador-container {
+  #confuso {
     flex-direction: column;
+    align-items: center;
   }
 
   .jogador-container img {
