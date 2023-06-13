@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@400;600&display=swap');
+.jogador-container {
+    margin-right: 10px; 
+  }
+  
+body {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-family: "Nunito";
+    
+}
+
+#JogadoresMasculinos , #JogadoresFemininos {
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+}
+@media (max-width: 1024px){
+    #JogadoresMasculinos , #JogadoresFemininos {
+        display: grid;
+        grid-template-columns:   1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 768px){
+    #JogadoresMasculinos , #JogadoresFemininos {
+        display: grid;
+        grid-template-columns:   1fr 1fr;
+    }
+}

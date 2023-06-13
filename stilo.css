@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@400;600&display=swap');
+
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Nunito";
+}
+
+#confuso{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-evenly
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  background-color: rgb(75, 4, 4);
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .jogador-container {
+    flex-direction: column;
+  }
+
+  .jogador-container img {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}
